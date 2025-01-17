@@ -2,7 +2,6 @@
 This repository documents an investigation into a recent smishing (text-based phishing) attempt. It uncovers the tactics and tools used by threat actors to deceive users. Explore a detailed analysis and the key findings.
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
 The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
 
@@ -28,12 +27,11 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 ### Tools Used
 
-- VirusTotal: Scans links and files with multiple antivirus programs to detect malicious activity.
-- Cisco Talos: Evaluates the safety and reputation of IP addresses and websites.
-- AnyRun: Executes and analyzes suspicious files and links in a controlled environment to observe their behavior.
-- Whois: Provides ownership details of domain names and IP addresses.
-- URLscan.io: Analyzes websites and URLs to identify their behavior and potential risks.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- VirusTotal: To scan link found in the text message.
+- Cisco Talos: To evaluate the safety and reputation of IP addresses associated with the url.
+- AnyRun: To Execute and analyze the links in a controlled environment to observe its behavior.
+- Whois: To acertain ownership details of the domain found in the link.
+- URLscan.io: To analyzes the URL to identify its behavior and potential risks.
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
