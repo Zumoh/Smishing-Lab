@@ -25,7 +25,7 @@ The Detection Lab project aimed to establish a controlled environment for simula
    - Learning how to identify and avoid potential phishing threats.
    - Advising on actions to take when encountering suspicious messages or links.
 
-### Tools Used
+### 🛠️ Tools Used
 
 - **VirusTotal**: To scan link found in the text message.
 - **Cisco Talos**: To evaluate the safety and reputation of IP addresses associated with the url.
